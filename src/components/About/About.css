@@ -1,0 +1,43 @@
+.about {
+      background:var(--section-bg);
+
+    color:var(--text-color);
+
+    transition:.4s;
+
+
+    min-height: 100vh;
+
+    padding: 80px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    
+}
+
+.about h2 {
+
+    font-size: 45px;
+
+    color: #38bdf8;
+     /*color:var(--heading-color);*/
+
+    margin-bottom: 30px;
+}
+
+.about p {
+
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    max-width: 900px;
+
+    margin-bottom: 20px;
+
+    color: #d1d5db;
+}

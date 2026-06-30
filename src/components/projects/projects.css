@@ -1,0 +1,38 @@
+.projects{
+
+    min-height:100vh;
+
+    padding:80px;
+
+    background:#111827;
+}
+
+.projects h2{
+
+    text-align:center;
+
+    font-size:45px;
+
+    color:#38bdf8;
+
+    margin-bottom:60px;
+}
+
+.projects-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+}
+
+@media (max-width:768px){
+
+    .projects{
+
+        padding:40px 20px;
+
+    }
+
+}

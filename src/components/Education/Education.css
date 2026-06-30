@@ -1,0 +1,36 @@
+.education{
+    
+
+padding:80px;
+
+/*background:#111827;*/
+ background:var(--bg-color);
+
+    color:var(--text-color);
+
+
+}
+.education h2{
+
+    color:var(--heading-color);
+
+}
+
+.edu-card{
+     background:var(--card-bg);
+
+    color:var(--text-color);
+
+    box-shadow:var(--shadow);
+
+/*background:#1e293b;*/
+
+padding:30px;
+
+border-radius:15px;
+
+max-width:500px;
+
+margin:auto;
+
+}
