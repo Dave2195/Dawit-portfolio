@@ -7,7 +7,7 @@ function Hero() {
 
       <div className="hero-text"  data-aos="fade-right">
 
-        <h3>Hello 👋</h3>
+        <h3>Hello </h3>
 
         <h1>I'm Dawit Daniel</h1>
 

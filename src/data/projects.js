@@ -19,7 +19,7 @@ const projects = [
             "MySQL"
         ],
 
-        github:"https://github.com/YOUR_USERNAME/student-management",
+        github:"https://https://github.com/Dave2195/Dawit-portfolio",
 
         demo:"#"
     },
@@ -40,7 +40,7 @@ const projects = [
             "MySQL"
         ],
 
-        github:"https://github.com/YOUR_USERNAME/police-inventory",
+        github:"https://https://github.com/Dave2195/Dawit-portfolio",
 
         demo:"#"
     }

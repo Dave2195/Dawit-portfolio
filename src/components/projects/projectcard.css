@@ -23,7 +23,8 @@
 
     transform:translateY(-10px);
 
-    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    box-shadow:var(--shadow);
+    
 }
 
 .project-card h3{

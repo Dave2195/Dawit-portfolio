@@ -38,7 +38,7 @@ function Footer(){
             <div className="social-links">
 
                 <a
-                    href="https://github.com/Dave2195/Devadani"
+                    href="https://github.com/Dave2195/Dawit-portfolio.git"
                     target="_blank"
                     rel="noreferrer"
                 >

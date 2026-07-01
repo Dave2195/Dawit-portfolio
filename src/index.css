@@ -1,50 +1,129 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ===========================
+   Light Theme (Default)
+=========================== */
+
 :root{
+
     --bg-color:#ffffff;
+
+    --section-bg:#f8fafc;
+
+    --card-bg:#ffffff;
+
     --text-color:#111827;
-    --card-color:#f8fafc;
+
+    --heading-color:#2563eb;
+
+    --button-bg:#2563eb;
+
+    --button-hover:#1d4ed8;
+
+    --badge-bg:#2563eb;
+
+    --badge-text:#ffffff;
+
+    --shadow:0 10px 25px rgba(0,0,0,.10);
+
 }
 
+/* ===========================
+   Dark Theme
+=========================== */
+
 .dark{
+
     --bg-color:#0f172a;
+
+    --section-bg:#111827;
+
+    --card-bg:#1e293b;
+
     --text-color:#ffffff;
-    --card-color:#1e293b;
+
+    --heading-color:#38bdf8;
+
+    --button-bg:#2563eb;
+
+    --button-hover:#1d4ed8;
+
+    --badge-bg:#2563eb;
+
+    --badge-text:#ffffff;
+
+    --shadow:0 10px 25px rgba(0,0,0,.40);
+
 }
 
+/* ===========================
+   Light Theme
+=========================== */
+
 .light{
+
     --bg-color:#ffffff;
+
+    --section-bg:#f8fafc;
+
+    --card-bg:#ffffff;
+
     --text-color:#111827;
-    --card-color:#f8fafc;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
+    --heading-color:#2563eb;
 
-    scroll-behavior: smooth;
-}
+    --button-bg:#2563eb;
 
-body {
+    --button-hover:#1d4ed8;
 
-    background: #0f172a;
+    --badge-bg:#2563eb;
 
-    color: white;
+    --badge-text:#ffffff;
 
-    /*font-family: Arial, sans-serif;*/
-    font-family: "Poppins", sans-serif;
+    --shadow:0 10px 25px rgba(0,0,0,.10);
+
 }
 
-.dark{
-    background:#0f172a;
-    color:white;
-    transition:0.4s;
+/* ===========================
+   Global Styles
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
 }
 
-.light{
-    background:#ffffff;
-    color:#111827;
-    transition:0.4s;
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:var(--bg-color);
+
+    color:var(--text-color);
+
+    transition:.4s;
+
+}
+
+.app{
+
+    min-height:100vh;
+
+    background:var(--bg-color);
+
+    color:var(--text-color);
+
+    transition:background-color .4s,color .4s;
+
 }

@@ -4,7 +4,11 @@
 
     padding: 80px;
 
-    background: #0f172a;
+     background:var(--section-bg);
+
+    color:var(--text-color);
+
+    transition:.4s;
 
     display: flex;
 
@@ -21,7 +25,7 @@
 
     margin-bottom: 40px;
 
-    color: #38bdf8;
+      color:var(--heading-color);
 }
 
 .contact form {
@@ -40,13 +44,19 @@
 .contact input,
 .contact textarea {
 
-    padding: 15px;
+    width:100%;
 
-    border-radius: 8px;
+    padding:15px;
 
-    border: none;
+    background:var(--card-bg);
 
-    font-size: 16px;
+    color:var(--text-color);
+
+    border:1px solid #94a3b8;
+
+    border-radius:8px;
+
+    transition:.4s;
 }
 
 .contact textarea {
@@ -58,9 +68,11 @@
 
 .contact button {
 
-    background: #2563eb;
+    background:var(--button-bg);
 
-    color: white;
+    color:var(--badge-text);
+
+    transition:.3s;
 
     padding: 15px;
 
@@ -77,7 +89,13 @@
 
 .contact button:hover {
 
-    background: #1d4ed8;
+   background:var(--button-hover);
 
     transform: translateY(-2px);
+}
+.contact input::placeholder,
+.contact textarea::placeholder{
+
+    color:#94a3b8;
+
 }

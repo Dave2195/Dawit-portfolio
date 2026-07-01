@@ -4,7 +4,11 @@
 
     padding:80px;
 
-    background:#111827;
+    background-color:var(--section-bg);
+
+    color:var(--text-color);
+
+    transition:background-color .4s,color .4s;
 }
 
 .projects h2{
@@ -13,7 +17,7 @@
 
     font-size:45px;
 
-    color:#38bdf8;
+     color:var(--heading-color);
 
     margin-bottom:60px;
 }
